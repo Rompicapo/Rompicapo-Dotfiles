@@ -27,4 +27,7 @@ Plug 'iamcco/markdown-preview.viprocessing.vim'
 Plug 'sophacles/vim-processing'
 "Rust
 Plug 'rust-lang/rust.vim'
+
+"c#
+Plug 'OrangeT/vim-csharp'
 call plug#end()

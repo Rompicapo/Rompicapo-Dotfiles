@@ -13,3 +13,6 @@ PS1='~$ '
 #alias
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 alias bashrc='vim ~/.bashrc'
+
+#doom emacs alias
+alias doom='~/.emacs.d/bin/doom'
