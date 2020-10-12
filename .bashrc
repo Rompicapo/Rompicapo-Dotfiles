@@ -16,3 +16,4 @@ alias bashrc='vim ~/.bashrc'
 alias compose='setxkbmap -option compose:menu'
 #doom emacs alias
 alias doom='~/.emacs.d/bin/doom'
+#bu
