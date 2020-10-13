@@ -15,3 +15,6 @@ thanks to [DistroTube](https://www.youtube.com/channel/UCVls1GmFKf6WlTraIb_IaJg)
 
 ## Alacritty dependencies
 - [nerd-fonts-complete](https://aur.archlinux.org/packages/nerd-fonts-complete/)
+
+## DOOM emacs dependencies
+- spell check: aspell-it

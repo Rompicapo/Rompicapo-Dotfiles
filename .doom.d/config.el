@@ -19,6 +19,7 @@
 (setq user-full-name "Rompicapo"
       user-mail-address "rompcapo@gmail.com")
 
+(setq-default ispell-program-name "aspell")
 ;; Doom exposes five (optional) variables for controlling fonts in Doom. Here
 ;; are the three important ones:
 ;;
