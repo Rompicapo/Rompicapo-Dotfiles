@@ -50,3 +50,6 @@
 ;(unpin! t)
 
 (package! org-bullets)
+(package! gdscript-mode
+          :recipe (:host github
+                   :repo "GDQuest/emacs-gdscript-mode"))

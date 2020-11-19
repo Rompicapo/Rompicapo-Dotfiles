@@ -6,9 +6,18 @@
 (setq doom-font (font-spec :family "Mononoki Nerd Font" :size 15)
       doom-variable-pitch-font(font-spec :family "Mononoki Nerd Font" :size 15 ))
 
+(require 'gdscript-mode)
+
 (after! org
   (setq org-directory "~/Documenti/org/")
-  (setq org-agenda-files '("~/Documenti/org/agenda.org"))
+  (setq org-agenda-files '("~/Documenti/org/agenda.org"
+                           "~/Informatica/Geometria.org"
+                           "~/Informatica/Analisi.org"
+                           "~/Informatica/Fisica.org"
+                           "~/Informatica/Mdiscreta.org"
+                           "~/Informatica/ProgrammazioneInC.org"))
+
+
   (require 'org-bullets)
   (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1))))
 
