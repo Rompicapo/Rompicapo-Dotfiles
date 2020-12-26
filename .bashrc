@@ -8,7 +8,7 @@ pfetch
 alias ls='ls --color=auto'
 #PS1='[\u@\h \W]\$ '
 PS1='~$ '
-
+export TERM=linux
 
 #alias
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
