@@ -8,12 +8,16 @@ pfetch
 alias ls='ls --color=auto'
 #PS1='[\u@\h \W]\$ '
 PS1='~$ '
-export TERM=linux
+
+#setxkbmap -option compose:menu
 
 #alias
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 alias bashrc='vim ~/.bashrc'
 alias compose='setxkbmap -option compose:menu'
+alias sshfix='TERM=linux'
 #doom emacs alias
-alias doom='~/.emacs.d/bin/doom'
-#bu
+alias doom='~/.emacs.d/biin/doom'
+
+#rec
+alias rec='ffmpeg -f alsa -i hw:0 out.mp3'

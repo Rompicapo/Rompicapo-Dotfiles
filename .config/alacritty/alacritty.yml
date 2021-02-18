@@ -174,8 +174,8 @@ font:
 colors:
   # Default colors
   primary:
-    background: '#121212'
-    foreground: '#eaeaea'
+    background: '#21242b'
+    foreground: '#bbc2cf'
 
     # Bright and dim foreground colors
     #
@@ -190,7 +190,7 @@ colors:
   # Colors which should be used to draw the terminal cursor. If these are unset,
   # the cursor color will be the inverse of the cell color.
   cursor:
-    text: '#E6E6E6'
+    text: '#DFDFDF'
     cursor: '#B3B3B3'
 
   # Selection colors
@@ -203,15 +203,15 @@ colors:
   #  background: '#404040'
 
   # Normal colors
-  #normal:
-  #  black:   '#000000'
-  #  red:     '#d54e53'
-  #  green:   '#b9ca4a'
-  #  yellow:  '#e6c547'
-  #  blue:    '#7aa6da'
-  #  magenta: '#c397d8'
-  #  cyan:    '#70c0ba'
-  #  white:   '#eaeaea'
+  normal:
+    black:   '#1B2229'
+    red:     '#ff6c6b'
+    green:   '#98be65'
+    yellow:  '#ECBE7B'
+    blue:    '#51afef'
+    magenta: '#c678dd'
+    cyan:    '#46D9FF'
+    white:   '#DFDFDF'
 
   # Bright colors
   #bright:
@@ -278,7 +278,7 @@ colors:
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-background_opacity: 0.80
+background_opacity: 1.0
 
 #selection:
   #semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
