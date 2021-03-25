@@ -11,11 +11,11 @@
 (after! org
   (setq org-directory "~/Documenti/org/")
   (setq org-agenda-files '("~/Documenti/org/agenda.org"
-                           "~/Informatica/Geometria.org"
-                           "~/Informatica/Analisi.org"
-                           "~/Informatica/Fisica.org"
-                           "~/Informatica/Mdiscreta.org"
-                           "~/Informatica/ProgrammazioneInC.org"))
+                           "~/Informatica/Geometria/Geometria.org"
+                           "~/Informatica/Analisi/Analisi.org"
+                           "~/Informatica/Fisica/Fisica.org"
+                           "~/Informatica/Mdiscreta/Mdiscreta.org"
+                           "~/Informatica/Programmazione/ProgrammazioneInC.org"))
 
 
   (require 'org-bullets)
