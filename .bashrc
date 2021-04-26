@@ -7,8 +7,8 @@ pfetch
 
 
 #PS1='[\u@\h \W]\$ '
-#PS1='~$ '
-PS1='\e[35m \W → \e[0m '
+PS1='~$ '
+#PS1='\e[35m \W → \e[0m '
 
 #setxkbmap -option compose:menu
 
@@ -18,6 +18,7 @@ alias bashrc='vim ~/.bashrc'
 alias compose='setxkbmap -option compose:menu'
 alias sshfix='TERM=linux'
 alias ls='ls --color=auto'
+alias lls='ls -l'
 #doom emacs alias
 alias doom='~/.emacs.d/bin/doom'
 

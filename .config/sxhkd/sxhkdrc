@@ -1,0 +1,6 @@
+alt + e
+        emacs
+alt + r
+        alacritty --command ranger
+alt + b
+        firefox
