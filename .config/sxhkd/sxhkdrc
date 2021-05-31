@@ -2,5 +2,7 @@ alt + e
         emacs
 alt + r
         alacritty --command ranger
-alt + b
+alt + f
         firefox
+alt + z
+       rofi -show drun -theme slate -font "Mononoki Nerd font 13" -show-icons 

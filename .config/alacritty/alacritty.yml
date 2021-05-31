@@ -97,7 +97,7 @@ font:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family: UbuntuMono Nerd Font
+    family: Mononoki Nerd Font
 
     # The `style` can be specified to pick a specific face.
     #style: Regular
@@ -168,14 +168,14 @@ font:
   #use_thin_strokes: true
 
 # If `true`, bold text is drawn using the bright color variants.
-#draw_bold_text_with_bright_colors: false
+# draw_bold_text_with_bright_colors: true
 
 # Colors (Tomorrow Night Bright)
 colors:
   # Default colors
   primary:
-    background: '#21242b'
-    foreground: '#bbc2cf'
+    background: '0x282c34'
+    foreground: '0xbbc2cf'
 
     # Bright and dim foreground colors
     #
@@ -189,40 +189,39 @@ colors:
   #
   # Colors which should be used to draw the terminal cursor. If these are unset,
   # the cursor color will be the inverse of the cell color.
-  cursor:
-    text: '#DFDFDF'
-    cursor: '#B3B3B3'
+  #cursor:
+  #  text: '#DFDFDF'
+  #  cursor: '#B3B3B3'
 
   # Selection colors
   #
   # Colors which should be used to draw the selection area. If selection
   # background is unset, selection color will be the inverse of the cell colors.
   # If only text is unset the cell text color will remain the same.
-  #selection:
-  #  text: '#eaeaea'
-  #  background: '#404040'
+  selection:
+    text: '0xbbc2cf'
 
   # Normal colors
   normal:
-    black:   '#1B2229'
-    red:     '#ff6c6b'
-    green:   '#98be65'
-    yellow:  '#ECBE7B'
-    blue:    '#51afef'
-    magenta: '#c678dd'
-    cyan:    '#46D9FF'
-    white:   '#DFDFDF'
+    black:   '0x1c1f24'
+    red:     '0xff6c6b'
+    green:   '0x98be65'
+    yellow:  '0xda8548'
+    blue:    '0x51afef'
+    magenta: '0xc678dd'
+    cyan:    '0x5699af'
+    white:   '0xdfdfdf'
 
   # Bright colors
-  #bright:
-  #  black:   '#666666'
-  #  red:     '#ff3334'
-  #  green:   '#9ec400'
-  #  yellow:  '#e7c547'
-  #  blue:    '#7aa6da'
-  #  magenta: '#b77ee0'
-  #  cyan:    '#54ced6'
-  #  white:   '#ffffff'
+  # bright:
+  #  black:   '0x5b6268'
+  #  red:     '0xda8548'
+  #  green:   '0x4db5bd'
+  #  yellow:  '0xecbe7b'
+  #  blue:    '0x3071db'   # This is 2257a0 in Doom Emacs but I lightened it.
+  #  magenta: '0xa9a1e1'
+  #  cyan:    '0x46d9ff'
+  #  white:   '0xdfdfdf'
 
   # Dim colors
   #
@@ -237,6 +236,7 @@ colors:
   #  magenta: '#80638e'
   #  cyan:    '#497e7a'
   #  white:   '#9a9a9a'
+
 
   # Indexed Colors
   #
@@ -278,7 +278,7 @@ colors:
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-background_opacity: 1.0
+background_opacity: 1.00
 
 #selection:
   #semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
